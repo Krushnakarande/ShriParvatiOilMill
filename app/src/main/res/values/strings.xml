@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pariwar Agro</string>
+    <string name="get_started_with_the_app">Get Started with the App</string>
+    <string name="next">NEXT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
