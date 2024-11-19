@@ -14,14 +14,15 @@
         android:id="@+id/textView8"
         android:layout_width="257dp"
         android:layout_height="40dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:fontFamily="@font/merriweathersans_bold"
         android:text="SHRI PARVATI OIL MILL "
         android:textAlignment="center"
         android:textColor="#7E6F6F"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView24"
-        tools:layout_editor_absoluteX="76dp" />
+        app:layout_constraintEnd_toEndOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -37,9 +38,8 @@
         android:hint="Name"
         android:inputType="text"
         android:paddingLeft="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <EditText
@@ -82,9 +82,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="Or"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
     <TextView
@@ -129,7 +128,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button6"
+        android:id="@+id/signbutton"
         android:layout_width="140dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -153,21 +152,22 @@
         android:textAlignment="center"
         android:textColor="#7E6F6F"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintEnd_toEndOf="@+id/signbutton"
+        app:layout_constraintStart_toStartOf="@+id/signbutton"
+        app:layout_constraintTop_toBottomOf="@+id/signbutton"
+        app:layout_constraintVertical_bias="0.32" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="333dp"
         android:layout_height="63dp"
+        android:layout_marginTop="72dp"
         android:fontFamily="@font/abril_fatface"
         android:text="Sign Up"
         android:textAlignment="center"
         android:textColor="#876B15"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="70dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

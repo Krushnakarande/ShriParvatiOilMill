@@ -10,9 +10,10 @@
     tools:context="Fragment.ProfileFragment">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="401dp"
+        android:layout_height="517dp"
         android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:paddingRight="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,6 +21,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="8dp"
+
             android:background="@drawable/preofileedittextshape"
             android:elevation="2dp"
             android:gravity="center_vertical"
@@ -32,7 +34,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/merriweathersans_bold"
                 android:text="Name"
-                android:textColor="@color/black"
+                android:textColor="#C5A649"
                 android:textSize="16sp" />
 
             <EditText
@@ -65,7 +67,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/merriweathersans_bold"
                 android:text="Address"
-                android:textColor="@color/black"
+                android:textColor="#C5A649"
                 android:textSize="16sp" />
 
             <EditText
@@ -76,7 +78,7 @@
                 android:ems="10"
                 android:fontFamily="@font/merriweathersans_semibold"
                 android:inputType="textMultiLine"
-                android:text="pariwar agro clinic and agro services nirmal pimpri , rahata , ahmednagar" />
+                android:text="shri parvati oil nahik.." />
         </LinearLayout>
 
         <LinearLayout
@@ -97,7 +99,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/merriweathersans_bold"
                 android:text="Email"
-                android:textColor="@color/black"
+                android:textColor="#C5A649"
                 android:textSize="16sp" />
 
             <EditText
@@ -130,7 +132,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/merriweathersans_bold"
                 android:text="Phone"
-                android:textColor="@color/black"
+                android:textColor="#C5A649"
                 android:textSize="16sp" />
 
             <EditText
@@ -163,7 +165,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/merriweathersans_bold"
                 android:text="Land Area"
-                android:textColor="@color/black"
+                android:textColor="#C5A649"
                 android:textSize="16sp" />
 
             <EditText
@@ -198,7 +200,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/merriweathersans_bold"
                 android:text="Crops You Are Taking"
-                android:textColor="@color/black"
+                android:textColor="#C5A649"
                 android:textSize="16sp" />
 
             <EditText

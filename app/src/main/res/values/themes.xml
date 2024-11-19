@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PariwarAgro" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.shriparvatioilmill" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <style name="Theme.PariwarAgro" parent="Base.Theme.PariwarAgro" />
+    <style name="Theme.shriparvatioilmill" parent="Base.Theme.shriparvatioilmill" />
 </resources>

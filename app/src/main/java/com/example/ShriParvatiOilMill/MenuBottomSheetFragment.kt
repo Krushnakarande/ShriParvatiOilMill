@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.ShriParvatiOilMill.adapter.MenuAdapter
 import com.example.ShriParvatiOilMill.databinding.FragmentMenuBottomSheetBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
@@ -27,29 +29,24 @@ class MenuBottomSheetFragment : BottomSheetDialogFragment() {
             dismiss()
         }
 
-        val menuItemName = listOf("Onion","Urea","Bajra","Soyabean","item","Brofreya","Onion","Urea","Bajra","Soyabean","item","Brofreya")
-        val menuItemPrice = listOf("₹34","₹45","₹12","₹65","₹20","₹30","₹34","₹45","₹12","₹65","₹20","₹30")
+        val menuItemName = listOf("Coconut oil","Groundnut oil","Sunflower oil ","Flaxseed oil ","item")
+        val menuItemPrice = listOf("₹150","₹65","₹130","₹250","₹78")
         val menuImage = listOf(
-            R.drawable.menu1,
-            R.drawable.menu2,
-            R.drawable.menu3,
-            R.drawable.menu4,
-            R.drawable.menu2,
-            R.drawable.menu1,
-            R.drawable.menu1,
-            R.drawable.menu2,
-            R.drawable.menu3,
-            R.drawable.menu4,
-            R.drawable.menu2,
-            R.drawable.menu1,
+            R.drawable.o1,R.drawable.o2,R.drawable.o3,R.drawable.o4,R.drawable.o5
         )
         val adapter = MenuAdapter(ArrayList(menuItemName),ArrayList(menuItemPrice),ArrayList(menuImage))
-        binding.menuRecyclerView.layoutManager = LinearLayoutManager(requireContext())
+
+
+        val layoutManager = GridLayoutManager(requireContext(), 2) // 2 for 2 columns
+
+        binding.menuRecyclerView.layoutManager = layoutManager
         binding.menuRecyclerView.adapter = adapter
         return binding.root
     }
 
     companion object {
+
+
 
     }
 }
