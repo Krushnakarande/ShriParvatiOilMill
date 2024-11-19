@@ -21,7 +21,7 @@
             android:fontFamily="@font/merriweathersans_bold"
             android:gravity="center"
             android:text="Congrats\nYour Order is Placed"
-            android:textColor="@color/endcolor"
+            android:textColor="#C39F31"
             android:textSize="24sp" />
 
         <ImageView
@@ -30,7 +30,7 @@
             android:layout_height="300dp"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:src="@drawable/congratulation" />
+            android:src="@drawable/suceccful" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/goHome"

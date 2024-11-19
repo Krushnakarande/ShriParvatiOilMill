@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pariwaragro"
+    namespace = "com.example.ShriParvatiOilMill"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.pariwaragro"
+        applicationId = "com.example.ShriParvatiOilMill"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

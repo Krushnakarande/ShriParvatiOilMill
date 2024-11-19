@@ -38,7 +38,7 @@
         android:fontFamily="@font/merriweathersans_bold"
         android:text="Proceed"
         android:textAllCaps="false"
-        android:textColor="@color/endcolor"
+        android:textColor="#B3902E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -10,10 +10,9 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="399dp"
+        android:layout_height="230dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="20dp"
         android:layout_marginRight="5dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +22,7 @@
         <com.denzcoskun.imageslider.ImageSlider
             android:id="@+id/image_slider"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="230dp"
             app:iss_auto_cycle="true"
             app:iss_delay="3000"
             app:iss_no_dots="true"
@@ -33,10 +32,10 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/PopularRecyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/PopulerRecyclerView"
+        android:layout_width="394dp"
+        android:layout_height="414dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,10 +45,10 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/merriweathersans_semibold"
-        android:text="Popular"
+        android:text="Products"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,15 +58,16 @@
         android:id="@+id/viewAllMenu"
         android:layout_width="80dp"
         android:layout_height="35dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/textviewshape"
         android:elevation="5dp"
         android:fontFamily="@font/merriweathersans_medium"
         android:gravity="center"
         android:text="View Menu"
-        android:textColor="#297A2C"
+        android:textColor="#87712E"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

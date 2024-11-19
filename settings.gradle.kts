@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Pariwar Agro"
+rootProject.name = "Shri Parvati Oil Mill"
 include(":app")

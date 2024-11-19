@@ -3,33 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#F0A536"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash_background"
+
     tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="SHRI PARVATI OIL MILL "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="510dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="211dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="132dp"
-        android:src="@drawable/logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="PARIWAR AGRO"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        android:layout_width="219dp"
+        android:layout_height="258dp"
+        app:srcCompat="@drawable/oilnew"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="174dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,7 +29,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:src="@drawable/menu4"
+                android:src="@drawable/o2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -53,8 +53,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/merriweathersans_bold"
                 android:text="₹5"
+                android:textColor="#BC9F46"
                 android:textSize="20sp"
-                android:textColor="@color/endcolor"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/buyAgainItemName"
                 app:layout_constraintTop_toBottomOf="@+id/buyAgainItemName" />
